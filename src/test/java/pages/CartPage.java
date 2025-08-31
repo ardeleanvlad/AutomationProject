@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CartPage extends BasePage {
-    // Locators
     private By cartTitle = By.className("title");
     private By cartItem = By.className("cart_item");
     private By checkoutButton = By.id("checkout");

@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 public class CheckoutPage extends BasePage {
-    // Locators
     private By firstNameField = By.id("first-name");
     private By lastNameField = By.id("last-name");
     private By postalCodeField = By.id("postal-code");

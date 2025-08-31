@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class ProductPage extends BasePage {
-    // Locators
     private By productName = By.className("inventory_details_name");
     private By productDescription = By.className("inventory_details_desc");
     private By productPrice = By.className("inventory_details_price");

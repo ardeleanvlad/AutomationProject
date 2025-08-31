@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class InventoryPage extends BasePage {
-    // Locators
     private By inventoryTitle = By.className("title");
     private By sortDropdown = By.className("product_sort_container");
     private By cartIcon = By.className("shopping_cart_link");
